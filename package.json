@@ -1,0 +1,36 @@
+{
+  "name": "joshie-frank-personal-page",
+  "version": "1.0.0",
+  "description": "Personal website for Dr. Jael Joshie Frank Núñez - GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html",
+    "dev": "live-server --port=3000",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy via GitHub Pages'",
+    "validate": "html5validator --root . --show-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaelfrank/joshie-frank-personal-page.git"
+  },
+  "keywords": [
+    "personal-website",
+    "github-pages",
+    "portfolio",
+    "medicine",
+    "psychiatry",
+    "mental-health",
+    "technology"
+  ],
+  "author": "Dr. Jael Joshie Frank Núñez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaelfrank/joshie-frank-personal-page/issues"
+  },
+  "homepage": "https://jaelfrank.github.io/joshie-frank-personal-page/",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "html5validator": "^0.4.2"
+  }
+}
