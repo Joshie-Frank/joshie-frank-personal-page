@@ -165,14 +165,7 @@ body {
 }
 
 .vcard::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--gradient-purple);
-    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    /* Línea decorativa superior eliminada */
 }
 
 @keyframes fadeInUp {
@@ -335,14 +328,7 @@ body {
 }
 
 .section-heading::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--gradient-purple);
-    border-radius: var(--radius-sm);
+    /* Línea decorativa inferior eliminada */
 }
 
 .section-heading i {
