@@ -525,6 +525,35 @@ body {
     margin-bottom: var(--spacing-xl);
 }
 
+.contact-section .contact-line {
+    text-align: center;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    background: linear-gradient(90deg, rgba(159,122,234,0.06), rgba(232,121,249,0.03));
+    padding: calc(var(--spacing-sm) / 2) var(--spacing-md);
+    border-radius: var(--radius-sm);
+    display: inline-block;
+    margin-top: var(--spacing-md);
+}
+
+.contact-section .contact-line a {
+    color: var(--accent-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-section .contact-line a:hover,
+.contact-section .contact-line a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+.contact-section .mail-icon {
+    margin-right: 0.5rem;
+    font-size: 0.95rem;
+    vertical-align: middle;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
